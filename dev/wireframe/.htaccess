@@ -1,0 +1,4 @@
+AuthName "Fairytale Project - Web Dev"
+AuthType Basic
+AuthUserFile /nfs/c10/h04/mnt/147970/domains/fairytaleproject.net/.devpass
+require valid-user

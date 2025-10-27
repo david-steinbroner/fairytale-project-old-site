@@ -1,0 +1,42 @@
+/* 
+----COLORS----
+#ed1c24 -- red
+#e0e6ea -- light grey/blue
+ */
+
+
+html { height:100%; width:100%;}
+body {width:100%; height:100%; margin:0px; padding: 0px; border:0px;
+font-family:Verdana, Arial, Helvetica, sans-serif; background:#e0e6ea;
+font-size:13px; line-height:16px;}
+img {border:none;}
+a {text-decoration:none; color:#000;}
+a:hover {text-decoration:underline;}
+
+/* ----- NAVIGATION BOX -------*/
+#navbox { width:250px; height:570px; position:fixed; top:20px; left:20px; background:#fff; padding:10px; border:#000000 2px solid;}
+
+#header { width:250px; height:115px; background-image:url("../images/header.png"); background-repeat:no-repeat; border-bottom:#000000 1px dashed;}
+#header h1 {visibility:hidden; color:#ed1c24; font-size:25px;}
+
+#view { padding:15px 0px 15px 0px; font-weight:bold; border-bottom:#000000 1px dashed; }
+#filters { padding:15px 0px 15px 0px; font-weight:bold; border-bottom:#000000 1px dashed; }
+
+
+.filter{width:100%; margin:10px 0px;}
+
+
+/*------ Grid ------ */
+#participants { margin-left:300px;}
+
+
+/*-----Participant-----*/
+#participant_wrapper {width:100%; height:100%; margin:0px; padding: 0px; border:0px;
+font-family:Verdana, Arial, Helvetica, sans-serif; background:#ffffff;
+font-size:13px; line-height:16px; overflow:hidden;}
+#participant_sidebar {position:fixed; top:0; left:0; width:250px; height:100%; margin:10px; font-weight:bold;}
+#participant_sidebar h2 {color:red; font-weight:bold; font-size:13px;}
+#participant_content {height:100%; margin-left:270px; overflow:auto; }
+#participant_sidebar_header { padding:15px 0px 15px 0px; border-bottom:#000000 1px dashed; }
+#participant_sidebar_thumb {width:100px; height:100px; border:#000000 1px solid; float:left; text-align:center; margin:10px;}
+.filters { padding:15px 0px 15px 0px; font-weight:bold; border-bottom:#000000 1px dashed; }

@@ -1,0 +1,143 @@
+
+/* Fairytale Stylesheet */
+
+body {
+	background:#fff url(http://fairytaleproject.net/fairytale_bkgd.gif) no-repeat;
+	color:#336633;
+	margin:0;
+	padding:0;
+	font:12px Arial,sans-serif;
+	line-height:15px;
+}
+
+#container{
+	position:absolute;
+	left:30px;
+	top:30px;
+	width:800px;
+}
+
+#header {
+	width:700px;
+	height:134px;
+	font:21px Arial,sans-serif;
+	color:#505050;
+}
+
+#subheader {
+	width:600px;
+	font:12px Arial,sans-serif;
+}
+
+#subheader a {
+	text-decoration: none;
+}
+
+#sidebar {
+    position:fixed;
+    _position:absolute;
+	top:30px;
+    _top:expression(eval(document.body.scrollTop));
+    left:730px;
+	width:200px;
+	font:12px Arial,sans-serif;	
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#zh {
+	width:390px;
+	padding:0px 40px 0px 0px;
+	float:left;
+	font:12px Arial,sans-serif;
+	color:#505050;
+	}
+
+#zh3 {
+	width:245px;
+	padding-left:75px 0px 0px 40px;
+	float:left;
+	font:11px Arial,sans-serif;
+	color:#505050;
+}
+
+#zh2 {
+	font:12px Arial,sans-serif;
+	color:#505050;
+	}
+	
+#zh a {
+	text-decoration: none;
+}
+
+#zh3 a {
+	text-decoration: none;
+}
+
+#en {
+	width:245px;
+	padding-left:75px 0px 0px 40px;
+	float:left;
+	font:11px Arial,sans-serif;
+	font-style:italic;
+	color:#505050;
+}
+
+#en2 {
+	font:11px Arial,sans-serif;
+	font-style:italic;
+	color:#505050;
+	padding-top:6px;
+}
+
+#en a {
+	text-decoration: none;
+}
+
+#footer {
+	clear:both;
+	width:700px;
+	left:30px;
+	padding-top:10px;
+	border-top: 1px solid #ccc;
+	font:11px Arial,sans-serif;
+	color:#505050;
+	}
+
+#footer a {
+	text-decoration: none;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+h5 {
+	font:14px Arial,sans-serif;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+a{
+	color:#336633;
+}
+
+a:hover {
+	color:#663300;
+}
+
+a:visited {
+	color:#336633;
+}
+
+div.breakerdiv {
+	clear:both;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}

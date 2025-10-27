@@ -1,0 +1,4 @@
+# Rewrite Rule for fairytaleproject.net
+# RewriteEngine On
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ https://www.fairytaleproject.net/$1 [R,L]

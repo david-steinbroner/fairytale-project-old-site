@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /dev/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /wireframe/
+Disallow: /stylesheets/
+Disallow: /previous/
+Disallow: /javascript/
+Disallow: /participant.php
+Disallow: /participants_front_page.php
+Disallow: /participant_media.php
+Disallow: /participant_content.php
+Disallow: /markercoordinates.php
+Disallow: /markers.json
+Disallow: /project.php
+Disallow: /filtertest.php
+Disallow: /call.php
+Disallow: /blog.php
+Disallow: /blog_content.php
+Disallow: /blog_content_tag.php
+Disallow: /blog_content_single.php
+Disallow: /image_conection.php
+
+
+User-agent: Googlebot-Image
+Disallow: / 
